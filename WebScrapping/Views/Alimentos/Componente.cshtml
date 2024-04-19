@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebScrapping.Models.Composicao>
+
+@{
+    ViewData["Title"] = "Composição";
+   
+}
+
+<div class="text-container">
+     </br>
+    <div class="text-center">
+    <h1>Composição</h1>
+    </div>
+    <br/>
+
+
+    <table class="table">
+  <thead>
+    <tr>
+     
+      <th scope="col">Componentes</th>
+      <th scope="col">Unidades</th>
+      <th scope="col">Valor por 100g</th>
+      <th scope="col">Desvio padrão</th>
+      <th scope="col">Valor Mínimo</th>
+      <th scope="col">Valor Máximo</th>
+      <th scope="col">Número de dados utilizados</th>
+      <th scope="col">Referências</th>
+      <th scope="col">Tipo de dados</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+          @foreach (var item in Model)
+            {
+
+                 <tr>
+                  
+                  <td>@item.Componente</td>
+                  <td>@item.Unidades</td>
+                  <td>@item.ValorP</td>
+                  <td>@item.DesvioP</td>
+                  <td>@item.ValorMin</td>
+                  <td>@item.ValorMax</td>
+                  <td>@item.NumeroD</td>
+                  <td>@item.Ref</td>
+                  <td>@item.TipoD</td>
+                 
+                </tr>
+    
+                
+            }
+           
+   
+  </tbody>
+</table>
+
+</div>

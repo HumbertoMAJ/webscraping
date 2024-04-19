@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebScrapping.Models.Alimento>
+
+@{
+    ViewData["Title"] = "Alimentos";
+   
+}
+
+<div class="text-container">
+    </br>
+    <div class="text-center">
+    <h1>Alimentos</h1>
+    </div>
+    <br/>
+
+
+    <table class="table" id="alimentos">
+  <thead>
+    <tr>
+     
+      <th scope="col">Codigo</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Nome cientifico</th>
+      <th scope="col">Grupo</th>
+    </tr>
+  </thead>
+  <tbody>
+             
+            @foreach (var item in Model)
+            {
+                
+                    <tr>
+
+                  <td><a  asp-controller="Alimentos" asp-action="Componente" asp-route-codigo="@item.Codigo">@item.Codigo</a></td>
+                  <td><a  asp-controller="Alimentos" asp-action="Componente" asp-route-codigo="@item.Codigo">@item.Nome</a></td>
+                  <td><a  asp-controller="Alimentos" asp-action="Componente" asp-route-codigo="@item.Codigo">@item.NomeCF</a></td>
+                  <td><a  asp-controller="Alimentos" asp-action="Componente" asp-route-codigo="@item.Codigo">@item.Grupo</a></td>
+                </tr>
+                
+                
+                
+            }
+
+
+           
+        
+  </tbody>
+</table>
+        
+
+        
+
+</div>
