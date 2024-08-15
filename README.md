@@ -8,7 +8,7 @@ Este projeto de Web Scraping usando o framework .NET visa extrair informações 
 - **HTML / CSS/ BOOTSTRAP** - Essas tecnologias trabalham juntas para criar páginas da web visualmente atraentes, bem estruturadas e funcionais.
 - **DataTable(Biblionteca javascript)** - Para a manipulação de tabelas HTML. Ele permite que você adicione recursos avançados às tabelas, como ordenação, filtragem, paginação e muito mais, tudo isso de uma forma altamente personalizável e fácil de implementar.
 - **Html Agility Pack** - Para manipular e extrair dados de documentos HTML de uma forma flexível e eficiente.
-- **Linguagem C# utilizando Framework .NET 6** - O framework .NET 6 oferece uma plataforma robusta e moderna para o desenvolvimento de uma ampla variedade de aplicativos.
+- **Linguagem C# utilizando Framework .NET 6** - O framework .NET 6 oferece uma plataforma robusta e moderna para o desenvolvimento.
 - **Entity Framework** -  Ele é uma estrutura de mapeamento objeto-relacional (ORM) para o desenvolvimento de aplicações .NET. Ele simplifica o acesso e manipulação de dados em bancos de dados relacionais usando objetos.
 - **Banco de dados Sql Server** - O SQL Server é um sistema de gerenciamento de banco de dados relacional (SGBDR).
 ## Funcionalidades
